@@ -1,0 +1,20 @@
+{
+    "description": "New Rule (change left_shift+caps_lock to page_down, right_shift+caps_lock to left_command+mission_control, f5 to command+r)",
+    "manipulators": [
+        {
+            "type": "basic",
+            "from": {
+                "key_code": "f5",
+                "modifiers": {
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "r",
+                    "modifiers": ["left_command"]
+                }
+            ]
+        }
+    ]
+}
