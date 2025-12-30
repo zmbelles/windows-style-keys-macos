@@ -22,7 +22,7 @@
                     "optional": ["any"]
                 }
             },
-            "to": [{ "shell_command": "/usr/bin/open -na 'Microsoft Edge' --args 'https://www.linkedin.com'" }],
+            "to": [{ "shell_command": "/usr/bin/open -a Safari 'https://www.linkedin.com'" }],
             "type": "basic"
         }
     ]
