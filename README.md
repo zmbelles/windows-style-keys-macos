@@ -51,6 +51,23 @@ End → Command + Right Arrow
 
 These mappings work across text fields, code editors, terminals, and browsers.
 
+### LinkedIn Panic Shortcut
+
+At some point, a very real corporate keyboard shortcut existed:
+
+- Ctrl + Shift + Windows + Alt + L → Opens LinkedIn
+
+This mapping exists here entirely as a meme.
+
+It recreates the shortcut on macOS using the modifiers the keyboard actually sends, not because anyone needs this, but because it’s funny that this was ever a thing in the first place.
+
+The adapted shortcut is:
+
+- Cmd + Shift + Option + L → Opens LinkedIn in a new Microsoft Edge tab
+
+It’s intentionally awkward, hard to hit by accident, and serves as a reminder that corporate muscle memory is eternal. The implementation uses a shell command instead of simulated keystrokes so it’s at least reliable while being ridiculous.
+
+
 ---
 
 ## Requirements
