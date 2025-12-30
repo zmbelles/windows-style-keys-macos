@@ -1,0 +1,74 @@
+{
+    "description": "New Rule (remap command+r to f5)",
+    "manipulators": [
+        {
+            "type": "basic",
+            "from": {
+                "key_code": "f5",
+                "modifiers": {
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "r",
+                    "modifiers": ["left_command"]
+                }
+            ]
+        },
+        {
+            "type": "basic",
+            "from": {
+                "key_code": "home",
+                "modifiers": {
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_command"]
+                }
+            ]
+        },
+        {
+            "type": "basic",
+            "from": {
+                "key_code": "end",
+                "modifiers": {
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["left_command"]
+                }
+            ]
+        },
+        {
+            "from": {
+                "key_code": "f5",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "r",
+                    "modifiers": ["left_command"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_shift", "left_option"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "shell_command": "/usr/bin/open -na 'Microsoft Edge' --args 'https://www.linkedin.com'" }],
+            "type": "basic"
+        }
+    ]
+}
